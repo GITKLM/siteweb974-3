@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import Bounded from '../components/Bounded';
+import Bounded from '../../components/Bounded';
 import AnimationDevis from './AnimationDevis';
 
 
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 }
 
 
-export default function Page() {
+export default function contact() {
   
 
   return (

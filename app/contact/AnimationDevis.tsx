@@ -1,6 +1,6 @@
 "use client";
 import './module.page.css';
-import ContactForm from '../components/form';
+import ContactForm from '../../components/form';
 import { useRef } from 'react';
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";

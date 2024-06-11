@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 
 
-const Page = () => {
+const realisations = () => {
   return (
 <section>
 <AnimatedRealisation />
@@ -17,4 +17,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default realisations;

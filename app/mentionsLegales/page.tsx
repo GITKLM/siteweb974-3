@@ -1,5 +1,5 @@
 import React from 'react';
-import Bounded from '../components/Bounded';
+import Bounded from '../../components/Bounded';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Consultez nos mentions légales"
 }
 
-export default function Page() {
+export default function mentionsLegales() {
   return (
      <Bounded>
        <h1 className='text-balance text-center text-5xl font-medium md:text-6xl max-w-5xl pt-14 pb-10'>Mentions Légales</h1>

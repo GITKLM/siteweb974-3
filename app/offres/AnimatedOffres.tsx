@@ -1,7 +1,7 @@
 "use client"
 import React, { useRef } from 'react';
 import OffrePageCard from "./OffrePageCard";
-import Plus from "../components/Plus";
+import Plus from "../../components/Plus";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 

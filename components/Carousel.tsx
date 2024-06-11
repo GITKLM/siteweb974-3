@@ -2,10 +2,7 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 
-
-
      
-
 const Carousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const totalSlides = 5;

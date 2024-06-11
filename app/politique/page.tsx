@@ -1,5 +1,5 @@
 import React from 'react';
-import Bounded from "../components/Bounded";
+import Bounded from "../../components/Bounded";
 import { Metadata } from 'next';
 
 
@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: "Nous nous engageons à protéger votre vie privée."
 }
 
-export default function PolitiqueConfidentialite() {
+export default function politique() {
   return (
     <Bounded>
       <h1 className="text-center text-4xl font-medium my-8">Politique de Confidentialité</h1>

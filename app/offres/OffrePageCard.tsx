@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import ButtonRegion from '../components/ButtonRegion';
+import ButtonRegion from '../../components/ButtonRegion';
 
 type OffrePageCardProps = {
   title: string;

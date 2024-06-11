@@ -1,6 +1,6 @@
 'use client';
-import Word from '../components/Word';
-import Character from '../components/Character';
+import Word from '../../components/Word';
+import Character from '../../components/Character';
 import Image from 'next/image';
 import { useRef } from 'react';
 import gsap from "gsap";
